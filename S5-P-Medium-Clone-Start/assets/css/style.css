@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap');
+
+:root {
+    --clr-yellow: #FFC016;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 75px;
+    background-color: var(--clr-yellow);
+    border-bottom: 1px solid black;
+}
+
+.hero {
+    height: 455px;
+    background-color: var(--clr-yellow);
+    border-bottom: 1px solid black;
+    
+}
+
+.hero-animation-area {
+    height: 100%;
+}
+
+.hero-animation-area svg {
+    height: 100%;
+}
