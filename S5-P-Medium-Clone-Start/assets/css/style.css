@@ -6,6 +6,8 @@
     --clr-grey: #E6E6E6;
     --clr-drk-grey: #B3B3B3;
     --clr-drkst-gre: #757575;
+    --clr-green: rgb(26, 137, 23);
+    --clr-hv-green: rgb(15, 115, 12);
 }
 
 
@@ -18,7 +20,6 @@ body {
 
 header {
     height: 75px;
-    background-color: var(--clr-yellow);
     border-bottom: 1px solid var(--clr-black);
     display: flex;
     align-items: center;
@@ -31,6 +32,15 @@ header {
     left: 0;
     right: 0;
     z-index: 1;
+}
+
+.yellow-bg {
+    background-color: var(--clr-yellow);
+
+}
+
+.white-bg {
+    background-color: white;
 }
 
 header .logo {
@@ -55,9 +65,20 @@ header .start-button {
     font-weight: 300;
     font-size: 15px;
     color: white;
-    background-color: var(--clr-black);
     border-radius: 50px;
     padding: 10px 15px;
+}
+
+.black-bg {
+    background-color: var(--clr-black);
+}
+
+.green-bg {
+    background-color: var(--clr-green);
+}
+
+.green-bg:hover {
+    background-color: var(--clr-hv-green);
 }
 
 /* hero section */
