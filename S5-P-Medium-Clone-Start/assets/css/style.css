@@ -109,6 +109,7 @@ header .start-button {
     margin: 40px 64px 25px 64px;
 }
 
+
 .trending-card-section-container {
     display: flex;
     width: calc( 100% + 32px);
@@ -116,15 +117,18 @@ header .start-button {
 }
 
 .trending-card-container {
-    max-width: 33.3333333%;
+    width: 33.3333333%;
     display: flex;
     align-items: flex-start;
-    margin: 20px 0;
+    margin: 10px 0 35px 0;
 }
 
 .trending-title-container {
     display: flex;
     align-items: center;
+}
+.trending-card {
+    margin-top: 5px;
 }
 
 h2 {
@@ -141,8 +145,22 @@ h2 {
     margin-right: 20px;
 }
 
+.trending-card .author-name {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.trending-card .author-name img {
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
 .trending-card-container .post-title {
-    margin-right: 18px;
+    margin: 10px 18px 10px 0;
+    font-weight: 700;
 }
 
 /* bottom section */
@@ -166,6 +184,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+.article-card-container {
+    min-width: 75%;
+}
+
 .article-card-container .author-name {
     font-size: 13px;
     display: flex;
@@ -173,7 +195,7 @@ h2 {
 }
 
 .article-card-container .author-name img {
-    border-radius: 10%;
+    border-radius: 50%;
     width: 20px;
     height: 20px;
     border: .5px solid var(--clr-drk-grey);
@@ -226,10 +248,15 @@ h2 {
 
 /* aside */
 
-aside {
+.aside-container {
     max-width: 395px;
     position: sticky;
-    top: 0;
+    top: 107px;
+}
+
+aside {
+    position: relative;
+    margin-left: 40px;
 }
 
 aside h2 {
