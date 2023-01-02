@@ -47,6 +47,7 @@ header {
 
 header .logo {
     margin-right: auto;
+    cursor: pointer;
 }
 
 header nav {
@@ -60,6 +61,7 @@ header .nav-link {
     font-weight: 300;
     font-size: 15px;
     margin-right: 23px;
+    cursor: pointer;
 }
 
 header .start-button {
@@ -117,6 +119,7 @@ h1 {
     border-radius: 50px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .hero-animation-area {
@@ -152,6 +155,7 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 .trending-card {
     margin-top: 5px;
 }
@@ -175,6 +179,7 @@ h2 {
     display: flex;
     align-items: center;
     font-weight: 500;
+    cursor: pointer;
 }
 .trending-card .author-name img {
     height: 20px;
@@ -186,6 +191,7 @@ h2 {
 .trending-card-container .post-title {
     margin: 10px 18px 10px 0;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* bottom section */
@@ -217,6 +223,7 @@ h2 {
     font-size: 13px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .article-card-container .author-name img {
@@ -232,6 +239,7 @@ h2 {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .article-card-container p {
@@ -268,6 +276,7 @@ h2 {
     height: 134px;
     padding: 15px 20px 15px 20px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 
@@ -301,6 +310,7 @@ aside h2 {
     margin: 5px 5px 5px 0;
     color: var(--clr-drk-grey);
     font-size: 13px;
+    cursor: pointer;
 }
 
 .aside-footer {
@@ -316,6 +326,7 @@ aside h2 {
     margin-right: 25px;
     margin-bottom: 15px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .load-container {
@@ -330,7 +341,10 @@ aside h2 {
     border-radius: 50px;
     padding: 10px 15px;
     margin-bottom: 48px;
+    cursor: pointer;
 }
+
+
 
 .bottom-footer {
     display: none;
@@ -345,6 +359,10 @@ aside h2 {
 
 .footer-link-container .footer-link {
     color: white;
+}
+
+.footer-link-container .footer-link:hover {
+    text-decoration: underline;
 }
 
 .bottom-footer svg {
